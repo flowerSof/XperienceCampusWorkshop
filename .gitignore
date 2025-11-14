@@ -12,17 +12,29 @@ node_modules/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
 # Temporary files
 *.tmp
 *.temp
+*.bak
+*.cache
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment files
 .env
@@ -30,3 +42,20 @@ Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Auto-generated files (estos archivos se generan automáticamente, no commitear manualmente)
+# src/contributors-data.js  # Descomentado porque queremos commitear el generado por GH Actions
+# public/index.json          # Descomentado porque queremos commitear el generado por GH Actions
+
+# Legacy files (no usar)
+legacy/
+
+# Test files
+*.test.js
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+out/

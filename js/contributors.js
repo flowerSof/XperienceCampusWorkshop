@@ -2,7 +2,7 @@
 // 🔧 FUNCIONES PARA RENDERIZAR COLABORADORES
 // ============================================================================
 // Este archivo contiene toda la lógica para mostrar las tarjetas de colaboradores
-// Los datos están en contributors-data.js
+// Los datos están en src/contributors-data.js (auto-generado)
 // ============================================================================
 
 // Función para obtener las iniciales del nombre
